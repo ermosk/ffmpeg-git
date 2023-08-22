@@ -64,7 +64,7 @@ apt-get install -y \
 #--------------
 # Install meson
 #--------------
-pip3 install --no-cache-dir meson==0.57.1 && \
+pip3 install --no-cache-dir --break-system-packages meson==0.57.1 && \
 #------------------
 # Setup directories
 #------------------
@@ -76,7 +76,7 @@ mkdir -p /input /output /ffmpeg/ffmpeg_sources && \
 #----------------------------------------------------
 # Clean up directories and packages after compilation
 #----------------------------------------------------
-pip3 uninstall meson -y && \
+pip3 uninstall --break-system-packages meson -y && \
 apt-get purge -y \
   autoconf \
   automake \
