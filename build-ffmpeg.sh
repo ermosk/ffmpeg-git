@@ -12,7 +12,7 @@ git clone --branch v2.3.1 https://github.com/Netflix/vmaf.git
 git clone --depth 1 https://github.com/xiph/opus.git
 git clone --depth 1 https://code.videolan.org/videolan/x264.git
 git clone https://github.com/videolan/x265.git
-git clone https://github.com/AOMediaCodec/SVT-AV1.git
+git clone https://gitlab.com/AOMediaCodec/SVT-AV1.git
 git clone https://aomedia.googlesource.com/aom
 git clone https://github.com/FFmpeg/FFmpeg ffmpeg
 
