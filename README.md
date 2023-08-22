@@ -2,7 +2,7 @@
 
 Available on [Docker Hub][1].
 
-```docker pull five82/ffmpeg-git```
+```docker pull ermosk/ffmpeg-git```
 
 FFmpeg container compiled with the following configuration:
 
